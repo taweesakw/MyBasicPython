@@ -2,7 +2,7 @@ tilecolor={'Red':100,'Gold':150,'White':95,'Grey':90}
 
 print (' ----- ราคากระเบื้อง -------')
 for c,t in tilecolor.items():
-    print ('สี:'{} ราคา: {}'.format(c,t))
+    print('สี:{} ราคา: {}'.format(c,t))
 
 print (' ----- โปรแกรมคำนวณกระเบื้อง Ver.2 By Ken -------')
 
@@ -35,7 +35,7 @@ print(f'1 แถวปูกระเบื้องได้ {row} แผ่น
 print ('------ คำนวณ---------')
 print ('ต้องปูกระเบื้องทั้งหมด {} แถว'.format(total_row))
 print ('เหลือกระเบื้องที่ยังไม่ได้ปูเต็มแถว {}แผ่น'.format(remaining_tiles))
-print ('ลูกค้าต้องซื้อกระเบื้องเพิ่ม{} แผ่น'.format(buy_more))
+print ('ลูกค้าต้องซื้อกระเบื้องเพิ่ม {} แผ่น'.format(buy_more))
 print ('ยอดรวมทั้งหมดที่ต้องซื้อกระเบื้องเพิ่ม: {} บาท'.format(buy_more*tilecolor[color]))
          
 print (' ----------- End--------')
