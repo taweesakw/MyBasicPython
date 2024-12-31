@@ -1,0 +1,12 @@
+print('hello\t Ken')
+print('\n\n\n')
+print('hello Roger')
+print('\n\n\n')
+print('hello Mac')
+print('hello John')
+print('hello Michael')
+print('\n\n\n')
+print('hello Nicky')
+print('hello Charl')
+print('hello Baggy')
+

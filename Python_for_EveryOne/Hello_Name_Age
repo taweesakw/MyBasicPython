@@ -1,0 +1,9 @@
+def hello_command():
+    name = input("What is your name? ")
+    NickName = input("What is your NickName?")
+    age = input("What is your age? ")
+    
+    print(f"Hello, {name}! {NickName} You are {age} years old.")
+    
+# Trigger the command
+hello_command()
